@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: Significantly faster on already sorted data but much slower on reversed and randon datasets, consistent with Bubble sort O(n) complexity for best cases O(n2) for worst cases.
+
+sort2 uses: Merge
+
+How do you know?: It demonstrated consistently good performance across all types of input and scaled efficiently with larger datasets, which aligns with the behavior of Merge Sort.
+
+sort3 uses: Selection
+
+How do you know?: Its uniform performance regardless of input type suggests the characteristic traits of Selection Sort.

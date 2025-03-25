@@ -1,0 +1,24 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+To characterize their audio aura, I would calculate the average values for energy, valence, and danceability from the
+songs.db data. Based on the results, I would determine their dominant moods by correlating these averages with the mood
+categories described in Spotify Wrapped (e.g., high energy and valence might indicate a "happy" aura, while low energy and
+high valence might reflect "calm" or "introspective" traits). For example, if the average energy is high and the valence is
+moderate, the aura might lean towards "orange" or "purple."
+
+
+Why might the way you’ve calculated this aura not be very representative of the listener?
+
+This calculation might not fully represent the listener for several reasons. First, it relies on just three numerical metrics
+(energy, valence, danceability), which oversimplifies the emotional and personal nuances of music. Second, the data only reflects
+the listener's preferences in 2018, which may not align with their current tastes or emotional state. Third, the method
+doesn't account for genre diversity, lyrical content, or the emotional context in which the music was consumed.
+
+
+What better ways of calculating this aura would you propose?
+
+A more representative approach would include additional factors such as lyrical sentiment analysis, tempo, and genre
+classifications. Weighting recent listening data more heavily could also provide a better snapshot of the listener's current
+state. Additionally, incorporating user feedback or self-reported moods alongside their music preferences would help create a
+more personalized and accurate audio aura.
+

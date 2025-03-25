@@ -1,0 +1,143 @@
+body {
+    height: 100%;
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text for contrast */
+    padding-top: 56px;
+}
+
+/* Updated Table Styling */
+.table {
+    width: 100%; /* Full width */
+    max-width: 100%; /* No max-width restriction */
+    margin: 20px 0; /* Remove auto margin to prevent centering */
+    border-collapse: separate; /* Allows for rounded corners */
+    border-spacing: 0; /* No space between cells */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures rounded corners are visible */
+    background-color: #ffffff; /* White background */
+}
+
+/* Table Header Styling */
+th {
+    background-color: #007bff; /* Blue header background */
+    color: #ffffff; /* White text */
+    font-weight: 600; /* Bold text */
+    padding: 15px; /* More padding for better spacing */
+    text-align: center; /* Center-aligned header text */
+    border-bottom: 2px solid #0056b3; /* Darker blue border */
+    border-bottom: 2px solid #0056b3; /* Darker blue border */
+    border-right: 1px solid #0056b3; /* Add right border for consistency */
+}
+.table thead th {
+    background-color: #007bff !important; /* Blue header background */
+    color: #ffffff !important; /* White text */
+    font-weight: 600 !important; /* Bold text */
+    padding: 15px !important; /* More padding for better spacing */
+    text-align: center !important; /* Center-aligned header text */
+    border-bottom: 2px solid #0056b3 !important; /* Darker blue border */
+    border-right: 1px solid #0056b3 !important; /* Add right border for consistency */
+}
+
+/* Remove right border from the last header cell */
+.table thead th:last-child {
+    border-right: none !important;
+}
+
+/* Table Cell Styling */
+td {
+    padding: 12px; /* Comfortable padding */
+    text-align: center; /* Center-aligned cell text */
+    border-bottom: 1px solid #f0f0f0; /* Light gray border between rows */
+    color: #333333; /* Darker text for better readability */
+}
+
+/* Alternate Row Styling for Better Readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+/* Hover Effect on Rows */
+tr:hover {
+    background-color: #f1f1f1; /* Slightly darker gray on hover */
+    transition: background-color 0.2s ease; /* Smooth transition */
+}
+
+/* Remove bottom border from the last row */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Optional: Add a border-radius to the first and last cells in the header */
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+}
+
+/* Optional: Add a border-radius to the first and last cells in the last row */
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+h1, h2, h3, .currency, th, td {
+    color: #000000; /* Black text for headings and table content */
+}
+
+.button {
+    background: #007bff; /* Blue button background */
+    color: #ffffff; /* White text */
+}
+
+.button:after {
+    background: #0056b3; /* Darker blue */
+}
+
+input {
+    background-color: #f0f0f0; /* Light gray input field */
+    color: #000000; /* Black text */
+}
+
+input::placeholder {
+    color: #555555; /* Darker gray placeholder */
+}
+
+.navbar {
+    background-color: #ffffff; /* White navbar */
+    border-bottom: 1px solid #cccccc; /* Light gray bottom border */
+}
+
+.navbar-brand {
+    color: #000000 !important; /* Black brand text */
+}
+
+.navbar {
+    border-top: none !important; /* Remove top border */
+    border-bottom: none !important; /* Remove bottom border */
+}
+
+.navbar.bg-dark {
+    background-color: #142033 !important; /* Navy blue background */
+}
+
+.navbar-brand .blue {
+    color: #007bff; /* Blue */
+}
+
+.navbar-brand .red {
+    color: #dc3545; /* Red */
+}
+
+.navbar-brand .yellow {
+    color: #ffc107; /* Yellow */
+}
+
+.navbar-brand .green {
+    color: #28a745; /* Green */
+}
